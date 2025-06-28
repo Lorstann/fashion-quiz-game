@@ -1,63 +1,20 @@
-# Fashion Brand Quiz Game
+# Fotoğraf Yükleme Klasörü
 
-Moda markaları hakkında eğlenceli bir quiz oyunu! Marka logolarını tanıyın ve yüksek skor yapmaya çalışın.
+Bu klasöre kendi fotoğraflarınızı yükleyebilirsiniz.
 
-## 🎮 Oyun Hakkında
+## Nasıl Kullanılır:
 
-Bu oyun, popüler moda markalarının logolarını tanımanızı test eder. Doğru cevap verdiğinizde skorunuz artar, yanlış cevap verdiğinizde sıfırlanır. En yüksek skorunuzu geçmeye çalışın!
+1. Fotoğraflarınızı bu klasöre kopyalayın
+2. Desteklenen formatlar: .jpg, .jpeg, .png, .webp
+3. Fotoğraf isimleri önemli değil, sadece dosya uzantısına dikkat edin
+4. Fotoğrafları yükledikten sonra `src/data/quizData.js` dosyasını güncelleyin
 
-## 🚀 Nasıl Oynanır
+## Örnek Kullanım:
+- `ring1.jpg` - Tiffany & Co. yüzük
+- `bracelet2.png` - Cartier bilezik
+- `necklace3.webp` - Chanel kolye
 
-1. Ekranda görünen marka logosunu inceleyin
-2. Doğru marka adını seçin
-3. Doğru cevap verdiğinizde skorunuz artar
-4. Yanlış cevap verdiğinizde skorunuz sıfırlanır
-5. En yüksek skorunuzu geçmeye çalışın!
-
-## 🛠️ Teknolojiler
-
-- React 18
-- Vite
-- CSS3
-- LocalStorage (yüksek skor kaydetme)
-
-## 📦 Kurulum
-
-```bash
-# Bağımlılıkları yükleyin
-npm install
-
-# Geliştirme sunucusunu başlatın
-npm run dev
-
-# Production build oluşturun
-npm run build
-```
-
-## 🌐 Canlı Demo
-
-[GitHub Pages'de oynayın](https://lorstann.github.io/fashion-quiz-game/)
-
-## 📱 Özellikler
-
-- ✅ Responsive tasarım
-- ✅ Yüksek skor kaydetme
-- ✅ Animasyonlu skor sistemi
-- ✅ Rastgele soru sıralaması
-- ✅ Modern ve temiz arayüz
-
-## 🤝 Katkıda Bulunma
-
-1. Bu repository'yi fork edin
-2. Yeni bir branch oluşturun (`git checkout -b feature/yeni-ozellik`)
-3. Değişikliklerinizi commit edin (`git commit -am 'Yeni özellik eklendi'`)
-4. Branch'inizi push edin (`git push origin feature/yeni-ozellik`)
-5. Pull Request oluşturun
-
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
-
----
-
-**Not:** Bu oyun eğitim amaçlı yapılmıştır. Tüm marka logoları ilgili şirketlerin mülkiyetindedir. 
+## Not:
+- Fotoğraflar otomatik olarak yüklenmeyecek
+- Her fotoğraf için `quizData.js` dosyasında manuel olarak bilgi eklemeniz gerekiyor
+- Fotoğraf yolu: `/ring1.jpg` şeklinde olmalı (başında / işareti) 
