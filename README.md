@@ -36,7 +36,7 @@ npm run build
 
 ## 🌐 Canlı Demo
 
-[GitHub Pages'de oynayın](https://[kullanıcı-adınız].github.io/fashion-quiz-game/)
+[GitHub Pages'de oynayın](https://lorstann.github.io/fashion-quiz-game/)
 
 ## 📱 Özellikler
 
